@@ -1,10 +1,12 @@
-import Link from "next/link";
-import styles from "./homepage.module.css";
+import { CardList, CategoryList, Featured, Menu } from "@/components";
 
 export default function Home() {
   return <div>
-    <Link href="/">
-     Hello World!
-    </Link>
+    <Featured />
+    <CategoryList />
+    <div className="flex mt-10">
+      <CardList />
+      <Menu />
+    </div>
   </div>;
 }

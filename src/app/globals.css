@@ -1,8 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500&family=Montserrat:ital,wght@0,300;0,400;1,200;1,300&display=swap');
+
 :root {
     --bg:white;
     --textColor:black;
     --softBg:#f0f0f0;
-    --softTextColor: #626262
+    --softTextColor:#626262;
 }
 
 * {
@@ -12,6 +18,7 @@
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
     max-width: 100vw;
     overflow-x: hidden;
 }
@@ -21,8 +28,27 @@ a {
     text-decoration: none;
 }
 
+.dark {
+    --bg:#0f172a;
+    --textColor:#ddd;
+    --softBg:#1f273a;
+    --softTextColor:#a6a6a6;
+    --inverseColor:#1b2329;
+    --inverseBg:#f0f0f0;
+}
+
+.light {
+    --bg:white;
+    --textColor:black;
+    --softBg:#f0f0f0;
+    --softTextColor:#626262;
+    --inverseColor:#fff9f3;
+    --inverseBg:#1f273a;
+}
+
 .container {
     min-height: 100vh;
+    max-width: 100%;
     background-color: var(--bg);
     color: var(--textColor)
 }
@@ -34,6 +60,25 @@ a {
     padding-left: 80px;
     padding-right: 80px;
 }
+
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 15%;
+    height: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.category:hover{
+    background-color: #57c4ff31;
+    font-weight: 700;
+}
+
 
 @media screen and (max-width: 1536px) {
     .wrapper {
