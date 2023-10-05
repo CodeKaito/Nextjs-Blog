@@ -10,8 +10,8 @@ const Card = () => {
         </div>
         <div className='flex-1'>
             <div className='flex'>
-                <span className='text-gray-400'>11.02.2023 -</span>
-                <span className='uppercase text-gray-300'> Nature</span>
+                <span className='text-gray-400'>11.02.2023 </span>
+                <span className='uppercase text-gray-300'> - Nature</span>
             </div>
             <h1 className='text-xl font-bold mt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
             <p className='text-md font-extralight mt-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et urna vitae arcu venenatis ultrices. Vestibulum luctus mauris eu ante convallis, vel lacinia lacus eleifend. Integer non justo ac justo dapibus fermentum. Morbi convallis dolor nec arcu laoreet, id commodo odio cursus. Sed ullamcorper, urna nec bibendum facilisis, lectus sapien luctus nunc, eu suscipit lectus sapien in metus. Aliquam vel augue eget quam luctus consectetur. Duis sollicitudin mauris ut vehicula cursus.

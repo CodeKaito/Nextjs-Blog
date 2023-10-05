@@ -3,8 +3,8 @@ import { Card, Pagination } from '.'
 
 const CardList = () => {
   return (
-    <div className='w-6/10'>
-      <h1 className='mt-10 mb-5 text-2xl font-bold'>Recent Posts</h1>
+    <div className='w-4/5'>
+      <h1 className='mt-6 mb-5 text-2xl font-semibold'>Recent Posts</h1>
         <div className=''>
           <Card />
           <Card />
